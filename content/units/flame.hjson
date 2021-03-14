@@ -1,0 +1,36 @@
+type: flying
+description: Sets enemies' bots burning. Can be very strong in groups up for 8 units.
+speed: 2.75
+flying: true
+accel: 0.5
+drag: 0.01
+health: 450
+engineOffset: 5.5
+range: 140
+armor: 1
+weapons: [
+  {
+    name: flamethrower
+    y: 0
+    x: 5
+    reload: 12
+    ejectEffect: casing1
+    shootSound: shoot
+    rotate: false
+    bullet: {
+      speed: 2.5
+      damage: 8
+      width: 7
+      height: 9
+      lifetime: 60
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 2
+      frontColor: f8ad42
+      backColor: f68021
+      status: burning
+    }
+  }
+]
+research: mech-factory

@@ -1,0 +1,31 @@
+type: mech
+description: Shoots a lot of spore pods anywhere, making more your enemies weak
+speed: 0.45
+health: 300
+armor: 1
+weapons: [
+    {
+        name: shotgun
+        reload: 11
+        x: 7
+        y: 2
+        top: false
+        shots: 2
+        spacing: 2
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 16
+            speed: 2.8
+            width: 9
+            height: 18
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 3
+            lifetime: 50
+            sprite: bullet
+        }
+    }
+]
+research: mech-addictive-reconstructor

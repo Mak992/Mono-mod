@@ -1,0 +1,31 @@
+type: mech
+description: Shoots spore pods anywhere, making your enemies weak
+speed: 0.45
+health: 300
+armor: 1
+weapons: [
+    {
+        name: cannon
+        reload: 15
+        x: 7
+        y: 2
+        top: false
+        shots: 2
+        spacing: 2
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 9
+            speed: 2.5
+            width: 8
+            height: 14
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 5
+            lifetime: 40
+            sprite: bullet
+        }
+    }
+]
+research: mech-factory

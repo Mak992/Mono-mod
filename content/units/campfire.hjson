@@ -1,0 +1,36 @@
+type: flying
+description: Sets enemies' bots burning even more because of shooting speed.
+speed: 3.25
+flying: true
+accel: 0.5
+drag: 0.01
+health: 275
+engineOffset: 5.5
+range: 180
+armor: 1
+weapons: [
+  {
+    name: flamethrower
+    y: 0
+    x: 5
+    reload: 9
+    ejectEffect: casing1
+    shootSound: shoot
+    rotate: true
+    bullet: {
+      speed: 4
+      damage: 15
+      width: 8
+      height: 11
+      lifetime: 65
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 1
+      incendSpread: 2
+      frontColor: f8ad42
+      backColor: f68021
+      status: burning
+    }
+  }
+]
+research: mech-addictive-reconstructor

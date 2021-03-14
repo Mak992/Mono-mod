@@ -1,0 +1,101 @@
+type: mech
+description: Monstrocity of guns, obliterates your enemies
+speed: 0.75
+health: 300
+armor: 1
+weapons: [
+    {
+        name: shotgun
+        reload: 8
+        x: 8
+        y: 2
+        top: true
+        shots: 2
+        spacing: 2
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 28
+            speed: 3
+            width: 9
+            height: 18
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 3
+            lifetime: 50
+            sprite: bullet
+        }
+            }
+        {
+        name: furnace-small-gun
+        reload: 75
+        x: 3
+        y: -5
+        top: true
+        shots: 2
+        spacing: 3
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 50
+            speed: 2
+            width: 9
+            height: 18
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: burning
+            inaccuracy: 2
+            lifetime: 50
+            sprite: bullet
+        }
+            }
+        {
+        name: shotgun
+        reload: 8
+        x: 8
+        y: 2
+        top: true
+        shots: 2
+        spacing: 2
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 28
+            speed: 3
+            width: 9
+            height: 18
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: sapped
+            inaccuracy: 3
+            lifetime: 50
+            sprite: bullet
+        }
+            }
+        {
+        name: furnace-small-gun
+        reload: 250
+        x: 0
+        y: 6
+        top: true
+        mirror: false
+        shots: 7
+        spacing: 5
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 45
+            speed: 1.25
+            width: 11
+            height: 21
+            frontColor: bf92f9
+            backColor: 6d56bf
+            status: burning
+            inaccuracy: 4
+            lifetime: 75
+            sprite: bullet
+        }
+    }
+]
+research: mech-upgrade-reconstructor
