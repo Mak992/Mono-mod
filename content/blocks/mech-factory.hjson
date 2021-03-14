@@ -1,0 +1,40 @@
+type: UnitFactory
+
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/120
+    lead/240
+    silicon/160
+    graphite/120
+]
+
+plans: [
+    {
+        unit: arma
+        requirements: [
+            silicon/25
+            spore-pod/5
+        ]
+        time: 1200
+    },
+    {
+        unit: flame
+        requirements: [
+            silicon/10
+            coal/5
+        ]
+        time: 1050
+    }
+]
+
+
+category: units
+
+consumes: {
+    power: 2
+}
+
+research: silicon

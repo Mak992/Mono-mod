@@ -1,0 +1,38 @@
+type: Reconstructor
+
+health: 500
+size: 3
+itemCapacity: 75
+constructTime: 2500
+
+requirements: [
+    titanium/100
+    lead/200
+    silicon/200
+    surge-alloy/50
+]
+
+upgrades: [
+    [campfire, furnace],
+    [bravo, fort]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: surge-alloy
+                amount: 5
+            },
+            {
+                item: titanium
+                amount: 30
+            },
+            silicon/50
+        ]
+    }
+    power: 50
+}
+
+category: units
+research: mech-factory

@@ -1,0 +1,37 @@
+type: Reconstructor
+
+health: 500
+size: 3
+itemCapacity: 75
+constructTime: 1000
+
+requirements: [
+    copper/300
+    lead/200
+    silicon/150
+]
+
+upgrades: [
+    [flame, campfire],
+    [arma, bravo]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: graphite
+                amount: 45
+            },
+            {
+                item: lead
+                amount: 30
+            },
+            silicon/40
+        ]
+    }
+    power: 25
+}
+
+category: units
+research: mech-factory
